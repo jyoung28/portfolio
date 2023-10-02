@@ -30,6 +30,7 @@ const LandingPage = () => {
         
         {/* put my resume as a pdf download option*/}
         {/* Some pics Linked profile maybe and pic of mac and UW stadium*/}
+        {/* {asndjkasndjkasndjkandjkandjsk */}
     </div>
 }
 
