@@ -1,6 +1,6 @@
 {
-  "homepage": "https://jyoung28.github.io/jyoung28.github.io",
   "name": "personal-website",
+  "homepage": "https://jyoung28.github.io/jyoung28.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
