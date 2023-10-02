@@ -14,10 +14,10 @@ function App() {
           {/* have the header only be on pages after login */}
           <Header/>
           <Routes>
-              <Route element={<LandingPage/>} path="/" exact/>
-              <Route element={<TimelinePage/>} path="/timeline" exact/>
-              <Route element={<Projects/>} path="/projects" exact/>
-              <Route element={<ContactMe/>} path="/contactme" exact/>
+              <Route element={<LandingPage/>} path="/#/" exact/>
+              <Route element={<TimelinePage/>} path="/#/timeline" exact/>
+              <Route element={<Projects/>} path="/#/projects" exact/>
+              <Route element={<ContactMe/>} path="/#/contactme" exact/>
           </Routes>
       </Router>
     </div>
