@@ -1,0 +1,133 @@
+ body {
+     margin-right: 20px;
+ }
+ 
+div.container{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ ul {
+    text-align: center;
+ }
+
+ div.project-post {
+    background-color: white;
+    border-radius: 10px;
+    height: fit-content;
+    width: 1100px;
+    padding-bottom: 10px;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+
+    opacity: 0; 
+    animation: fadeInDown 2s ease-in;  
+    animation-fill-mode: forwards;
+ }
+
+ 
+
+ @keyframes fadeInDown {
+   from {
+     opacity: 0;
+     transform: translateY(-20px);
+   }
+   to {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+
+ .title {
+   font-size: 5em;
+   height: 50px;
+   text-align: center;
+   font-family: "Bebas Neue", sans-serif;
+ }
+
+ div.project-post:hover {
+    scale: 1.02;
+ }
+
+ div.project-post .post-text {
+    max-width: 1000px;
+ }
+ 
+ div.project-post .post-content {
+   padding-left: 50px;
+   padding-right: 50px;
+}
+
+ div.project-post .post-image {
+   max-width: 1000px;
+   border-radius: 50px;
+   height: auto;
+   padding-top: 10px;
+   margin-top: 50px;
+   padding-bottom: 10px;
+}
+
+div.project-post .pdfimg {
+   max-width: 1000px;
+   border-radius: 50px;
+   height: auto;
+   padding-top: 10px;
+   margin-top: 50px;
+   padding-bottom: 10px;
+   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+   0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+a.post-button0{
+   text-decoration: none;
+   padding: 0.5em 1em;
+   border-radius: 5px;
+   background-color: #06D6A0;
+   color: black;
+}
+
+a.post-button1{
+   text-decoration: none;
+   padding: 0.5em 1em;
+   border-radius: 5px;
+   background-color: #8D54D5;
+   color: black;
+}
+
+a.post-button2{
+   text-decoration: none;
+   padding: 0.5em 1em;
+   border-radius: 5px;
+   background-color: #516AD1;
+   color: black;
+}
+
+ h2.post0 {
+    background-color: #06D6A0;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+
+ }
+
+ h2.post1 {
+    background-color: #8D54D5;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+ }
+
+ h2.post2 {
+    background-color: #516AD1;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}

@@ -1,38 +1,236 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Poppins:wght@500&display=swap');
+body {
+  background: rgb(55, 62, 103);
+  font-family: 'League Spartan', sans-serif;
+  font-size: 25px;
+  color: rgb(53, 53, 53);
+}
+
+.title {
+  font-size: 5em;
+  height: 50px;
+  font-style: bold;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'League Spartan', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title2 {
+  font-size: 5em;
+  height: 50px;
+  font-style: bold;
+  text-align: left;
+  font-family: 'League Spartan', sans-serif;
+  color: white;
+  margin-left: 50px;
 }
 
-@keyframes App-logo-spin {
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(245, 6, 38);
+}
+
+#description {
+  margin: 1.5em 1.5em 2em 1.5em;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #8D54D5;
+}
+
+.schoolButton:hover {
+  background-color: #8D54D5;
+}
+
+.irvButton {
+  background-color: #516AD1;
+}
+
+.irvButton:hover {
+  background-color: #46518b;
+}
+
+.lifeButton {
+  background-color: #d15151;
+}
+
+.lifeButton:hover {
+  background-color: #b93c3c;
+}
+
+
+div.header {
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button.header-button {
+  background: none;
+  border: none;
+  text-decoration: none ;
+}
+
+button.header-button0 {
+  background: none;
+  border: none;
+  text-decoration: none ;
+  padding-top:10px;
+}
+
+.header-link0 {
+  text-decoration: none;
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+  font-family: "League Spartan", sans-serif;
+  padding-right: 950px;
+}
+
+.landing-cols {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.col1{
+  color : white;
+  flex: 1;
+  padding: 10px;
+  /* background-color: white; */
+  margin-left: 50px;
+  font-size: 30px;
+  animation: fadeInRight 1s ease-in;  
+    animation-fill-mode: forwards;
+}
+
+.landing-text {
+  color : white;
+  flex: 1;
+  /* background-color: white; */
+  font-size: 30px;
+}
+
+.landing-pic {
+  position: relative;
+  top:-100px;
+  width: auto;
+  padding: 10px;
+  width:500px;
+  border-radius: 500px;
+  height:fit-content;
+  animation: fadeInLeft 1s ease-in;  
+    animation-fill-mode: forwards;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-right: 10px
+}
+.header-button:hover {
+  scale: 1.05;
+}
+
+.image-link {
+  height:50px;
+  width: auto;
+  scale: .75;
+  fill: black;
+}
+.image-link1 {
+  height:50px;
+  width: auto;
+  fill: black;
+}
+
+.ex-link:hover {
+  scale:1.3;
+}
+
+.ex-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.resume {
+  position: relative;
+  top: -17px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border: 0;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+@keyframes fadeInRight {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateX(-20px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.resume:hover {
+  scale: 1.05;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(255, 255, 255);
+    margin-top: 1.5em;
   }
 }
