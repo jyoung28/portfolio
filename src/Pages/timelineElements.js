@@ -57,7 +57,7 @@ let timelineElements = [
       title: "University of Washington Freshman Year",
       location: "Seattle, WA",
       description:
-        "My first year of college, also when I began to code. My favorite courses during this year were Intro to Programming 1 & 2(CSE 142/143) and Beginning Scientific Computing(AMATH 301)",
+        "My first year of college, which is also when I began to code. My favorite courses during this year were Intro to Programming 1 & 2(CSE 142/143) and Beginning Scientific Computing(AMATH 301).",
       date: "2021 -2022",
       icon: "school",
       link: "/",

@@ -13,8 +13,8 @@ const LandingPage = () => {
             <div className="col1">
             <p className="landing-text">
                 Hello all! My name is Jacob Young and I am a Computer Science and Computational Finance
-                 and Risk Management Double Major studying at the University of Washington. Originally 
-                 from the Bay Area, I aim to be the most versatile engineer I can, eager to learn new 
+                 and Risk Management double major studying at the University of Washington. Originally 
+                 from the Bay Area, I strive to be the most versatile engineer I can, eager to learn new 
                  technologies and quick to apply them. I am currently looking for internship positions 
                  for Summer 2024. In my free time I like swimming, playing water polo, Nintendo games, 
                  reading, camping, hiking and hanging out with friends! Feel free to look around my site 
