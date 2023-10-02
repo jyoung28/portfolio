@@ -15,7 +15,7 @@ let timelineElements = [
       title: "Front-End Developer",
       location: "TechNext Inc",
       description:
-        "After my performance during my summer internship with TechNext, I was offered a part-time position as a front-end developer.",
+        "After my performance during my summer internship with TechNext Inc., I was offered a part-time position as a front-end developer.",
       buttonText: "TechNext Inc",
       date: "October 2023 - present",
       icon: "work",
