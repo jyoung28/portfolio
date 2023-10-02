@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jyoung28.github.io/static/css/main.58cbc81d.css",
-    "main.js": "/jyoung28.github.io/static/js/main.20bccd1b.js",
+    "main.js": "/jyoung28.github.io/static/js/main.8e17012a.js",
     "static/js/787.5809834d.chunk.js": "/jyoung28.github.io/static/js/787.5809834d.chunk.js",
     "static/media/viking.svg": "/jyoung28.github.io/static/media/viking.32267eb240e755a2997455809e4b4965.svg",
     "static/media/buoy.svg": "/jyoung28.github.io/static/media/buoy.2378ffd607ecf9638b3e33d9fd596e78.svg",
@@ -9,11 +9,11 @@
     "static/media/work.svg": "/jyoung28.github.io/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/jyoung28.github.io/index.html",
     "main.58cbc81d.css.map": "/jyoung28.github.io/static/css/main.58cbc81d.css.map",
-    "main.20bccd1b.js.map": "/jyoung28.github.io/static/js/main.20bccd1b.js.map",
+    "main.8e17012a.js.map": "/jyoung28.github.io/static/js/main.8e17012a.js.map",
     "787.5809834d.chunk.js.map": "/jyoung28.github.io/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58cbc81d.css",
-    "static/js/main.20bccd1b.js"
+    "static/js/main.8e17012a.js"
   ]
 }
